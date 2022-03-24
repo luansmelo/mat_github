@@ -16,7 +16,7 @@ function loadCsvData(filename) {
 (async () => {
     const studentsClass = process.argv[2]
     const shift = process.argv[3]
-    const octokit = new Octokit({ auth: `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` });
+    const octokit = new Octokit({ auth: `TOKEN AQUI` });
 
     /** @type {{ nome: string; nome_aluno: string }[]} */
     const students = await loadCsvData('data.csv');
